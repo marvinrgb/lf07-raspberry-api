@@ -5,7 +5,8 @@ export class dbHandler {
   //@ts-ignore
   private connection:mysql.Connection = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
+    user: 'python',
+    password: 'vmmFWLgAelf7',
     database: 'humiture'
   });
 
