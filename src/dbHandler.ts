@@ -4,10 +4,11 @@ import mysql from 'mariadb';
 export class dbHandler {
   //@ts-ignore
   private connection:mysql.Connection = mysql.createConnection({
-    host: 'localhost',
+    host: '10.7.155.190',
     user: 'python',
     password: 'vmmFWLgAelf7',
-    database: 'humiture'
+    database: 'humiture',
+    port: 3306
   });
 
 
